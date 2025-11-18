@@ -42,17 +42,17 @@ Y= (AB)’
 This is a NOT-OR gate which is equal to an OR gate followed by a NOT gate. The outputs of all NOR gates are low if any of the inputs are high. The symbol is an OR gate with a small circle on the output. The small circle represents inversion.
 Y= (A+B)’
 
-**Ex-OR gate**
+## Ex-OR gate:
 
 The 'Exclusive-OR' gate is a circuit which will give a high output if either, but not both of its two inputs are high. An encircled plus sign (⊕) is used to show the Ex-OR operation.
 Y= A⊕B
 
-### Ex-NOR gate
+### Ex-NOR gate:
 
 The 'Exclusive-NOR' gate circuit does the opposite to the EX-OR gate. It will give a low output if either, but not both of its two inputs are high. The symbol is an EX-OR gate with a small circle on the output. The small circle represents inversion.
 Y= A⊕B
 
-### Procedure
+### Procedure:
 
 1.	Type the program in Quartus software.
 
@@ -65,7 +65,7 @@ Y= A⊕B
 5.	For different input combinations generate the timing diagram.
 
 
-### PROGRAM
+### PROGRAM:
 ```
 module basic_gates(a,b,y1,y2,y3,y4,y5,y6);
 input a,b;
